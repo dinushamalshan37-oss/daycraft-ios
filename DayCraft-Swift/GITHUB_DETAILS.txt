@@ -1,0 +1,6 @@
+Name: DayCraft
+Repository: daycraft-ios
+Language: Swift
+GitHub Description:
+Offline-first iOS daily planner built with SwiftUI and SwiftData, featuring tasks, habit streaks and a Pomodoro focus timer.
+Topics: swift, swiftui, swiftdata, ios, productivity, pomodoro, habit-tracker

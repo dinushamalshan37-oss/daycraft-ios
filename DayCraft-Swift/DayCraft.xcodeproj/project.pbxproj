@@ -1,0 +1,67 @@
+    // !$*UTF8*$!
+    {
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+    /* Begin PBXBuildFile section */
+    72C242BEC8C42D1B92EEFC10 /* DayCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB14497F359F922EAB1CDF1 /* DayCraftApp.swift */; };
+    8FBA46B6ADFFC11443121135 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7391BE4D77E1EC916F6572 /* TaskItem.swift */; };
+    F526A2F3FB38AD16DBEF6506 /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E6818265F39153B6CBFE7C /* HabitItem.swift */; };
+    E270C2C0E068EA077321AABC /* FocusSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2721A5560F71E920C32000E /* FocusSession.swift */; };
+    1366451019F98BD8B371E837 /* StatPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3302E209A297BA0DC3559DC5 /* StatPill.swift */; };
+    A63AEEED3583F6A99FDE3586 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E53A3B94BF70A55840A2A /* TaskRow.swift */; };
+    2CD88BD8B804BBE553FB0684 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BCE6B9C632633A5B84AD83 /* RootView.swift */; };
+    3A9D615882EBC043EAD9F747 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88FBB9503425FF8777AB308 /* TodayView.swift */; };
+    CCDB8261190664F0AF2C469F /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A0A45A06FA0F903827BC1D /* HabitsView.swift */; };
+    41D17ADAD9794236E9C1B930 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9EE2EFF7FE20B73AE6B62 /* FocusView.swift */; };
+    /* End PBXBuildFile section */
+    /* Begin PBXFileReference section */
+    5BB14497F359F922EAB1CDF1 /* DayCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCraftApp.swift; sourceTree = "<group>"; };
+    CB7391BE4D77E1EC916F6572 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+    28E6818265F39153B6CBFE7C /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
+    A2721A5560F71E920C32000E /* FocusSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSession.swift; sourceTree = "<group>"; };
+    3302E209A297BA0DC3559DC5 /* StatPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatPill.swift; sourceTree = "<group>"; };
+    F74E53A3B94BF70A55840A2A /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+    73BCE6B9C632633A5B84AD83 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+    C88FBB9503425FF8777AB308 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+    C8A0A45A06FA0F903827BC1D /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+    0CD9EE2EFF7FE20B73AE6B62 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+    8AF3D0DD61D3A7B30C73427A /* DayCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    /* End PBXFileReference section */
+    /* Begin PBXFrameworksBuildPhase section */
+    BECC1988FE5B4B5815F5BA0F /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+    /* End PBXFrameworksBuildPhase section */
+    /* Begin PBXGroup section */
+    A80D015B562E88F28AEE722A = {isa = PBXGroup; children = (26C31E41BA030875D2816BFB /* DayCraft */, 73890627D04259045E73C9BF /* Products */, ); sourceTree = "<group>"; };
+    26C31E41BA030875D2816BFB /* DayCraft */ = {isa = PBXGroup; children = (5BB14497F359F922EAB1CDF1, 4D359AAD0678D8624C689D22 /* Models */, 91662B93775EF6972A236074 /* Components */, 2C47A9F36F07563064AF172E /* Views */, ); path = DayCraft; sourceTree = "<group>"; };
+    4D359AAD0678D8624C689D22 /* Models */ = {isa = PBXGroup; children = ( CB7391BE4D77E1EC916F6572 /* TaskItem.swift */, 28E6818265F39153B6CBFE7C /* HabitItem.swift */, A2721A5560F71E920C32000E /* FocusSession.swift */ ); path = Models; sourceTree = "<group>"; };
+    91662B93775EF6972A236074 /* Components */ = {isa = PBXGroup; children = ( 3302E209A297BA0DC3559DC5 /* StatPill.swift */, F74E53A3B94BF70A55840A2A /* TaskRow.swift */ ); path = Components; sourceTree = "<group>"; };
+    2C47A9F36F07563064AF172E /* Views */ = {isa = PBXGroup; children = ( 73BCE6B9C632633A5B84AD83 /* RootView.swift */, C88FBB9503425FF8777AB308 /* TodayView.swift */, C8A0A45A06FA0F903827BC1D /* HabitsView.swift */, 0CD9EE2EFF7FE20B73AE6B62 /* FocusView.swift */ ); path = Views; sourceTree = "<group>"; };
+    73890627D04259045E73C9BF /* Products */ = {isa = PBXGroup; children = (8AF3D0DD61D3A7B30C73427A /* DayCraft.app */, ); name = Products; sourceTree = "<group>"; };
+    /* End PBXGroup section */
+    /* Begin PBXNativeTarget section */
+    8629D3BEDD64AFF7647B1860 /* DayCraft */ = {isa = PBXNativeTarget; buildConfigurationList = 09631E84F210AE621C476306; buildPhases = (BAB739E8D111BCEA2B7CBCE0, BECC1988FE5B4B5815F5BA0F, 753CA1BCC343DB3343BE62B6, ); buildRules = (); dependencies = (); name = DayCraft; productName = DayCraft; productReference = 8AF3D0DD61D3A7B30C73427A; productType = "com.apple.product-type.application"; };
+    /* End PBXNativeTarget section */
+    /* Begin PBXProject section */
+    AF218C60C93DC21FE357B471 /* Project object */ = {isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1500; TargetAttributes = {8629D3BEDD64AFF7647B1860 = { CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = 9523ED86EE34A014AC63AB48; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = A80D015B562E88F28AEE722A; productRefGroup = 73890627D04259045E73C9BF; projectDirPath = ""; projectRoot = ""; targets = (8629D3BEDD64AFF7647B1860 /* DayCraft */, ); };
+    /* End PBXProject section */
+    /* Begin PBXResourcesBuildPhase section */
+    753CA1BCC343DB3343BE62B6 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+    /* End PBXResourcesBuildPhase section */
+    /* Begin PBXSourcesBuildPhase section */
+    BAB739E8D111BCEA2B7CBCE0 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = ( 72C242BEC8C42D1B92EEFC10 /* DayCraftApp.swift in Sources */, 8FBA46B6ADFFC11443121135 /* TaskItem.swift in Sources */, F526A2F3FB38AD16DBEF6506 /* HabitItem.swift in Sources */, E270C2C0E068EA077321AABC /* FocusSession.swift in Sources */, 1366451019F98BD8B371E837 /* StatPill.swift in Sources */, A63AEEED3583F6A99FDE3586 /* TaskRow.swift in Sources */, 2CD88BD8B804BBE553FB0684 /* RootView.swift in Sources */, 3A9D615882EBC043EAD9F747 /* TodayView.swift in Sources */, CCDB8261190664F0AF2C469F /* HabitsView.swift in Sources */, 41D17ADAD9794236E9C1B930 /* FocusView.swift in Sources */ ); runOnlyForDeploymentPostprocessing = 0; };
+    /* End PBXSourcesBuildPhase section */
+    /* Begin XCBuildConfiguration section */
+    7366EE82E1872A9CE894BE25 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+    FF82BF7940B7635B61F50098 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.daycraft; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+    D5356ED20A0483B5ED2842CB /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_TESTABILITY = NO; GCC_OPTIMIZATION_LEVEL = s; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+    1C0934AFD7EBC8160007B5A8 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.daycraft; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+    /* End XCBuildConfiguration section */
+    /* Begin XCConfigurationList section */
+    9523ED86EE34A014AC63AB48 = {isa = XCConfigurationList; buildConfigurations = (7366EE82E1872A9CE894BE25 /* Debug */, D5356ED20A0483B5ED2842CB /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    09631E84F210AE621C476306 = {isa = XCConfigurationList; buildConfigurations = (FF82BF7940B7635B61F50098 /* Debug */, 1C0934AFD7EBC8160007B5A8 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+    /* End XCConfigurationList section */
+    };
+    rootObject = AF218C60C93DC21FE357B471 /* Project object */;
+    }
