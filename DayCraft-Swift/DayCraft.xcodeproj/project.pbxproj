@@ -2,7 +2,7 @@
     {
     archiveVersion = 1; 
     classes = {};
-    objectVersion = 56;
+    objectVersion = 56; 
     objects = {
     /* Begin PBXBuildFile section */
     72C242BEC8C42D1B92EEFC10 /* DayCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB14497F359F922EAB1CDF1 /* DayCraftApp.swift */; };
